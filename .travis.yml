@@ -6,4 +6,4 @@ install:
 os:
   - linux
 script:
-  echo "Test"
+  mkdir data
