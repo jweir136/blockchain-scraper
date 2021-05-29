@@ -6,5 +6,4 @@ install:
 os:
   - linux
 script:
-  mkdir data
-  python main.py "data/" True
+  mkdir data && python main.py "data/" True
