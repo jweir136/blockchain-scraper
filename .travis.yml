@@ -5,5 +5,6 @@ install:
   - "pip install -r requirements.txt"
 os:
   - osx
-  - windows
   - linux
+script:
+  echo "Test"
