@@ -7,7 +7,3 @@ os:
   - osx
   - windows
   - linux
-script:
-  "mkdir data"
-  "python main.py 'data/' True"
-
