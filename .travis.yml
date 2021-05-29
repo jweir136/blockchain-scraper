@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.9"
+install:
+  - "pip install -r requirements.txt"
+os:
+  - osx
+  - windows
+  - linux
+script:
+  "mkdir data"
+  "python main.py 'data/' True"
+
